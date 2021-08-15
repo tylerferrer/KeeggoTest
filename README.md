@@ -11,7 +11,6 @@
  4. Deixei rodando em modo silencioso pois consome menos memória, se for necessário uma visualização do processo é apenas alterar a linha de
 
    
-
     options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080", "--ignore-certificate-errors");
 
    
