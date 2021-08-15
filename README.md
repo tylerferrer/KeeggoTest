@@ -10,13 +10,10 @@
  3. Para rodar pode ir ate a pasta src/test/com.keego/runners e rodar o runner que está dentro da pasta
  4. Deixei rodando em modo silencioso pois consome menos memória, se for necessário uma visualização do processo é apenas alterar a linha de
 
-   
 
     options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080", "--ignore-certificate-errors");
 
-   
  para:   
   
-
      // options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080", "--ignore-certificate-errors");
 
