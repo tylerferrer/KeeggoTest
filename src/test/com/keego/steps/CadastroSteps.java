@@ -17,7 +17,7 @@ public class CadastroSteps extends Methods {
     public void queEstouAcessandoAAplicação() {
         System.setProperty("webdriver.chrome.driver","src/main/drivers/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080", "--ignore-certificate-errors");
+//        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080", "--ignore-certificate-errors");
         driver = new ChromeDriver(options); driver.get("http://advantageonlineshopping.com/#/register");
         driver.manage().window().maximize();
     }
