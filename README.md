@@ -2,7 +2,7 @@
 ## Requisitos
 
  - Intellij ou IDE java de sua preferência
- - Chrome 92 (se for de preferência utilizar outra versão do chrome é necessário baixar outra versão do chromedriver e substituir na pasta drivers.)
+ - Chrome 92 (se for de preferência utilizar outra versão do chrome é necessário baixar outra versão do chromedriver e substituir na pasta drivers. Em caso de uso do linux é necessário adicionar o chromedriver para linux na pasta e alterar o System Property de chromedriver.exe para chromedriver.)
 
 ## Rodando os testes 
 
